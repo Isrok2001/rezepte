@@ -5,16 +5,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meine Rezepte</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        h1,
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            padding-left: 20px;
+            list-style-type: disc;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Meine Rezepte</h1>
-    <ul>
-        <li><a href="rezept1.html">Schokoladenkuchen</a></li>
-        <!-- Weitere Rezepte hier hinzufügen -->
-    </ul>
+    <div class="container">
+        <h1>Meine Rezepte</h1>
+        <ul>
+            <li><a href="rezept1.html">Schokoladenkuchen</a></li>
+            <li><a href="rezept2.html">Apfelkuchen</a></li>
+            <!-- Weitere Rezepte hier hinzufügen -->
+        </ul>
+    </div>
 </body>
 
 </html>
-<!DOCTYPE html>
-<html lang="de">
